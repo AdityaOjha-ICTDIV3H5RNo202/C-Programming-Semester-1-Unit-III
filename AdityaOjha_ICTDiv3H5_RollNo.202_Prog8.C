@@ -13,7 +13,8 @@ void main()
 		num=num+2;
 		sum=sum+num;
 	}
-	printf("The sum of first %d natural numbers is: %d",n,sum);
+	printf("The sum of first %d even numbers is: %d",n,sum);
 
 	getch();
 }
+

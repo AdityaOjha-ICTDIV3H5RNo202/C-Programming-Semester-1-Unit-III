@@ -1,15 +1,15 @@
 #include <stdio.h>
 void main()
 {
-    int l,s,i=0,arr[1000];
+    int l,s,i=0,arr[100];
     printf("Enter number: \n");
-    for (i=0;i<1000;i++)
+    for (i=0;i<100;i++)
         {
             scanf("%d",&arr[i]);
         }
     l=arr[0];
     s=arr[0];
-    for (i=0;i<=999;i++)
+    for (i=0;i<=99;i++)
         {   
             if (arr[i]>l)
             {
